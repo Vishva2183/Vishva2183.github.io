@@ -1,0 +1,181 @@
+*{
+        font-family: 'Roboto', sans-serif;
+        margin: 0; padding: 0;
+        text-transform: capitalize;
+        transition: .2s linear;
+}
+
+html{
+        font-size: 62.5%;
+        overflow-x: hidden;
+} 
+
+html::-webkit-scrollbar{
+        width: .8rem;
+}
+
+.donav{color: yellow;
+        background-color: grey;
+        padding: 5px;
+        font-weight: bold;
+        font-size:larger;
+        ;
+    
+    }
+
+html::-webkit-scrollbar-track{
+        background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+        background: #fff;
+        border-radius: 1rem;
+}
+
+body{
+        background-color: #010103;
+}
+
+.heading2{
+        text-align: center;
+        color:#fff;
+        text-transform: uppercase;
+        padding-bottom: 3.5rem;
+        font-size: 4rem;
+        padding: 25px;
+}
+
+.heading2{
+        color: #d3ad7f;
+        text-transform: uppercase;
+}
+
+.header{
+        background-color: #010103;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.5rem 7%; 
+        border-bottom: .1rem solid grey;
+        position: fixed;
+        top: 0; left: 0; right: 0;
+        z-index: 1000;
+}
+
+.header .navbar a{
+         margin: 0 1rem;
+         font-size: 1.6rem;
+         color: #fff;
+         text-decoration: none;
+}
+
+.header .navbar a:hover{
+        color: #d3ad7f;
+        border-bottom: 1px solid #d3ad7f;
+        padding-bottom: .5rem;
+}
+
+.heading3{
+        color: #fff;
+        font-size: 2.5rem;
+        padding: .5rem 0;
+}
+
+.clothesmenu .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 625px));
+        margin-left: 5px;
+        column-gap: 1.5rem;
+}
+
+ .clothesmenu .box-container .box{
+        height: 450px;
+        width: 500px;
+        margin: 10px;
+        padding: 45px;
+        text-align: center;
+        border: 1px solid grey;
+}
+
+.clothesmenu .box-container .box img{
+        height: 400px;
+        width: 500px;
+}
+
+.clothesmenu .box-container .box h3 > *{
+        color: #fff;
+        font-size: 1rem;
+        padding: 1rem 0;
+}
+
+.clothesmenu .box-container .box .price{
+        color: #fff;
+        font-size: 2rem;
+        padding: .5rem 0;
+}
+
+
+.clothesmenu .box-container .box:hover{
+        background: #fff;
+}
+
+.clothesmenu .box-container .box:hover > *{
+        color: #13131a;
+}
+
+#demo{color:black;
+        background-color: Cyan;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 35px}
+    
+    #foot{color:yellow;
+        background-color: black;
+        }
+
+
+.footer{
+        background: #13131a;
+        text-align: center;
+    }
+    
+    .footer .share{
+        padding:1rem 0;
+    }
+    
+.footer .share a{
+        height: 5rem;
+        width: 5rem;
+        line-height: 5rem;
+        font-size: 2rem;
+        color:#fff;
+        border: 1px solid grey;
+        margin: .3rem;
+        border-radius: 50%;
+}
+    
+.footer .share a:hover{
+        background-color: #d3ad7f;
+}  
+      
+.footer .links a{
+        padding:.7rem 2rem;
+        color:#fff;
+        border: 1px solid grey;
+        font-size: 2rem;
+}
+    
+.footer .links a:hover{
+        background-color: #d3ad7f;
+}
+    
+.footer .credit{
+        font-size: 2rem;
+        color:#fff;
+        font-weight: lighter;
+        padding:1.5rem;
+}
+    
+.footer .credit span{
+        color: #d3ad7f;
+}
